@@ -7,8 +7,21 @@ body {
 	opacity: 0.8;
 }
 
+#menu {
+	display: none;
+}
+
 article {
 	height: 300px;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.plantImage {
+	height: 200px;
+	width: auto;
 }
 
 .parallax-window {
