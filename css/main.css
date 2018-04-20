@@ -2,10 +2,6 @@ body {
 	box-sizing: border-box;
 }
 
-#container {
-	background-color: #fbfaf7;
-	opacity: 0.7;
-}
 
 #menu {
 	display: none;
@@ -17,6 +13,10 @@ h1, h2 {
 
 p {
 	font: 'Roboto', sans-serif;
+}
+
+article {
+	background-color: #fbfaf7
 }
 
 article p {
@@ -56,6 +56,5 @@ figure p {
 }
 
 .parallax-window {
-    min-height: 300px;
-    background: transparent;
+    min-height: 400px;
 }
