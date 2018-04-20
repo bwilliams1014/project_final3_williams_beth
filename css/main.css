@@ -6,3 +6,12 @@ body {
 	background-color: #fbfaf7;
 	opacity: 0.8;
 }
+
+article {
+	height: 300px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
