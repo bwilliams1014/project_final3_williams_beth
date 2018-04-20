@@ -16,20 +16,26 @@ p {
 }
 
 article {
-	background-color: #fbfaf7
+	background-color: #fbfaf7;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 article p {
 	margin-left: 40px;
 	margin-right: 40px;
+	text-w
 }
 
 article h2 {
 	margin-left: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 figure {
 	outline: 1px solid gray;
+	width: 200px;
 }
 
 figcaption {
@@ -48,8 +54,7 @@ figure p {
 .flex-container {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 30px;
-	margin-bottom: 30px;
+
 }
 
 .plantImage {
@@ -59,4 +64,18 @@ figure p {
 
 .parallax-window {
     min-height: 400px;
+}
+
+#services-images {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+}
+
+#services {
+	display: flex;
+}
+
+#services-info {
+	width: 30%;
 }
