@@ -7,7 +7,7 @@ body {
 	display: none;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Acme', sans-serif;
 }
 
@@ -15,19 +15,31 @@ p {
 	font: 'Roboto', sans-serif;
 }
 
+ul {
+	list-style-type: none;
+}
+
+li {
+	font: 'Roboto', sans-serif;
+	margin-top: 1rem;
+}
+
+.bold {
+	font-weight: bold;
+}
+
 article {
 	background-color: #fbfaf7;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 article p {
 	margin-left: 40px;
 	margin-right: 40px;
-	text-w
 }
 
-article h2 {
+article h2, h3 {
 	margin-left: 40px;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -72,10 +84,10 @@ figure p {
 	margin: auto;
 }
 
-#services {
+#services-flex-container {
 	display: flex;
 }
 
-#services-info {
+#list {
 	width: 30%;
 }
