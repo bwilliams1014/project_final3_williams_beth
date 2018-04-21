@@ -172,7 +172,7 @@ figure p {
 }
 
 #services .bold {
-	color: white;
+	color: #fbfaf7;
 	background-color: #437214;
 	padding: 1rem;
 	margin-bottom: 0;
@@ -186,7 +186,28 @@ figure p {
 	margin-top: 0;
 }
 
+.icons {
+	display: flex;
+	justify-content: center;
+}
 
+.icons img {
+	margin: 20px;
+	width:40px;
+	height: 40px;
+}
+
+footer {
+	background-color: #437214;
+	margin-bottom: 0;
+	padding: 30px;
+}
+
+footer p {
+	font-size: 0.7rem;
+	text-align: center;
+	color: #fbfaf7;
+}
 
 @media (min-width: 800px) {
 
