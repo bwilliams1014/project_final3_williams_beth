@@ -85,6 +85,17 @@ figure p {
 	margin: auto;
 }
 
+#map {
+	width: 300px;
+	margin: auto;
+
+}
+
+#map img {
+	width: 300px;
+	height: auto;
+	border: solid gray 2px;
+}
 
 @media (min-width: 800px) {
 
