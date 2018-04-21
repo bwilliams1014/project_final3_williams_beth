@@ -85,6 +85,21 @@ figure p {
 	margin: auto;
 }
 
+#services .bold {
+	color: white;
+	background-color: #437214;
+	padding: 1rem;
+	margin-bottom: 0;
+	margin-top: 1px;
+}
+
+.hidden-info {
+	display: none;
+	background-color: #d9f4be;
+	padding: 1.5rem;
+	margin-top: 0;
+}
+
 #map {
 	width: 300px;
 	margin: auto;
