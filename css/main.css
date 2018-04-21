@@ -62,51 +62,53 @@ li {
 	margin-right: 40px;
 }
 
+.flex-container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+
 .container {
-	box-sizing: border-box;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
+  position: relative;
+
+}
+
+.container figure {
+	outline: none;
 }
 
 .image {
-  opacity: 1;
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
 }
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
+.overlay {
   position: absolute;
-  top: 5px;
-  left: 0px;
-  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+	background-color:  #fbfaf7;
 }
 
-.container:hover .image {
-  opacity: 0.3;
-}
-
-.container:hover .middle {
-  opacity: 1;
+.container:hover .overlay {
+  opacity: 0.9;
 }
 
 .text {
   color: black;
-  font-size: 0.9rem;
-  padding: 0.8rem;
-}
-
-.container p {
-	font-size: 0.8rem;
-	margin: auto;
-	text-align: center;
-	padding: 1rem;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .bold {
@@ -184,17 +186,7 @@ figure p {
 	margin-top: 0;
 }
 
-#map {
-	width: 300px;
-	margin: auto;
 
-}
-
-#map img {
-	width: 300px;
-	height: auto;
-	border: solid gray 2px;
-}
 
 @media (min-width: 800px) {
 
