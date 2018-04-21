@@ -9,7 +9,7 @@
         defaults = {
             label: 'MENU',
             duplicate: true,
-            duration: 200,
+            duration: 500,
             easingOpen: 'swing',
             easingClose: 'swing',
             closedSymbol: '&#9658;',
@@ -17,7 +17,7 @@
             prependTo: 'body',
             appendTo: '',
             parentTag: 'a',
-            closeOnClick: false,
+            closeOnClick: true,
             allowParentLinks: false,
             nestedParentLinks: true,
             showChildren: false,

@@ -4,7 +4,9 @@ $('#services-images').backstretch(['img/design.jpg', 'img/pruning.jpg', 'img/gra
 
 $(function(){
 	$('#menu').slicknav();
-	});
+});
+
+$('.smoothscroll').smoothScroll({'offset':'170'});
 
 $('.services .bold').hover(function() {
 	$(this).css('cursor', 'pointer');

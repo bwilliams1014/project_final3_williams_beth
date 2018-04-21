@@ -1,5 +1,7 @@
 body {
 	box-sizing: border-box;
+	background-color: #fbfaf7;
+
 }
 
 
@@ -9,6 +11,7 @@ body {
 
 header {
 	background-color: #fbfaf7;
+	margin-top: 70px;
 }
 
 header img {
@@ -18,7 +21,7 @@ header img {
 	margin: auto;
 }
 
-#time {
+#time, header p {
 	font-size: 0.7rem;
 	text-align: center;
 }

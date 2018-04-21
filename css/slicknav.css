@@ -15,7 +15,11 @@
     margin-top: 0.188em; }
 
 .slicknav_menu {
-  *zoom: 1; }
+  *zoom: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99; }
   .slicknav_menu .slicknav_menutxt {
     display: block;
     line-height: 1.188em;
@@ -128,7 +132,7 @@
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
       border-radius: 6px;
-      background: #ccc;
+      background: #d9f4be;
       color: #222; }
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
