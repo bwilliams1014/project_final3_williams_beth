@@ -161,6 +161,10 @@ figure p {
 	width: 200px;
 }
 
+figure:hover {
+	transform: scale(1.1);
+}
+
 .parallax-window {
     min-height: 400px;
 }
