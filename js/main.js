@@ -14,5 +14,13 @@ $('.services .bold').on('click', function() {
 	$(this).siblings('.hidden-info').slideToggle('slow');
 	});
 
+var date = new Date();
+var currentTime = date.getHours();
+var open = null;
+if (currentTime > 7 < 19)
+	open = 'OPEN';
+else open = 'CLOSED';
+
+document.getElementById('time').innerHTML+= 'Hours: 8:00 am - 7:00 pm. We are now ' + open + '.';
 
 });
