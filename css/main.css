@@ -7,6 +7,17 @@ body {
 	display: none;
 }
 
+header {
+	background-color: #fbfaf7;
+}
+
+header img {
+	width: 200px;
+	padding: 1rem;
+	display: block;
+	margin: auto;
+}
+
 h1, h2, h3 {
     font-family: 'Acme', sans-serif;
 }
