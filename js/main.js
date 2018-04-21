@@ -6,8 +6,13 @@ $(function(){
 	$('#menu').slicknav();
 	});
 
+$('.services .bold').hover(function() {
+	$(this).css('cursor', 'pointer');
+});
+
 $('.services .bold').on('click', function() {
 	$(this).siblings('.hidden-info').slideToggle('slow');
 	});
+
 
 });
