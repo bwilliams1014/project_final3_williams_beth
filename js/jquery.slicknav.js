@@ -9,7 +9,7 @@
         defaults = {
             label: 'MENU',
             duplicate: true,
-            duration: 500,
+            duration: 200,
             easingOpen: 'swing',
             easingClose: 'swing',
             closedSymbol: '&#9658;',

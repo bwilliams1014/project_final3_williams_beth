@@ -16,6 +16,11 @@ $('.services .bold').on('click', function() {
 	$(this).siblings('.hidden-info').slideToggle('slow');
 	});
 
+$(function(){
+	$('#menu').slicknav();
+});
+
+
 // determine if store is open or closed; add content to HTML
 var date = new Date();
 var currentTime = date.getHours();
