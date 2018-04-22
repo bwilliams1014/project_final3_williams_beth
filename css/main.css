@@ -9,7 +9,7 @@ body {
 }
 
 /*** navigation ***/
-#menu {
+nav #menu {
 	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
@@ -78,6 +78,10 @@ h1, h2, h3 {
 
 p {
 	font: 'Roboto', sans-serif;
+}
+
+.hidden {
+	display: none;
 }
 
 article {
@@ -230,14 +234,14 @@ footer {
 	padding: 30px;
 }
 
-footer p {
+footer p, footer a {
 	font-size: 0.7rem;
 	text-align: center;
 	color: #fbfaf7;
 }
 
 
-
+/*** media queries to adjust for larger screen size ***/
 @media (min-width: 800px) {
 	#services-flex-container {
 		display: flex;
@@ -254,10 +258,11 @@ footer p {
 }
 
 @media (max-width: 800px) {
-	#menu {
+	nav #menu {
 		display: none;
 	}
 	.slicknav_menu {
 		display: block;
 	}
 }
+
