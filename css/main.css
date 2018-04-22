@@ -3,7 +3,12 @@ body {
 	background-color: #fbfaf7;
 }
 
-/*** navigation for full screen ***/
+/*** style parallax window ***/
+.parallax-window {
+    min-height: 300px;
+}
+
+/*** navigation ***/
 #menu {
 	box-sizing: border-box;
 	display: flex;
@@ -30,12 +35,12 @@ body {
 	text-shadow: 2px 2px 4px #000000;
 }
 
- ul {
+ul {
 	list-style-type: none;
 	margin: auto;
 }
 
- li {
+li {
 	font: 'Roboto', sans-serif;
 	padding: 5px;
 }
@@ -44,16 +49,11 @@ body {
 	display: none;
 }
 
-.topnav a:hover {
-	background-color: #d9f4be;
-	color: black;
-	border-radius: 2px;
-}
-
 #home {
 	height: 5rem;
 }
 
+/*** header ***/
 header {
 	background-color: #fbfaf7;
 	margin-bottom: 2rem;
@@ -71,66 +71,13 @@ header img {
 	text-align: center;
 }
 
+/*** font and paragraph styling ***/
 h1, h2, h3 {
     font-family: 'Acme', sans-serif;
 }
 
 p {
 	font: 'Roboto', sans-serif;
-}
-
-
-.flex-container2 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;	
-}
-
-.container {
-  position: relative;
-
-}
-
-.container figure {
-	outline: none;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-	background-color:  #fbfaf7;
-}
-
-.container:hover .overlay {
-  opacity: 0.9;
-}
-
-.text {
-  color: black;
-  font-size: 0.8rem;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.bold {
-	font-weight: bold;
 }
 
 article {
@@ -168,23 +115,67 @@ figure p {
 	font-size: 0.8rem;
 }
 
-.flex-container {
+figure:hover {
+	transform: scale(1.1);
+}
+
+/*** styles for flex displays and overlays ***/
+.flex-container, .flex-container2 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
+.container {
+  position: relative;
+
+}
+
+.container figure {
+	outline: none;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color:  #fbfaf7;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+	color: black;
+	font-size: 0.8rem;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
 .plantImage {
 	height: 200px;
 	width: 200px;
-}
-
-figure:hover {
-	transform: scale(1.1);
-}
-
-.parallax-window {
-    min-height: 300px;
 }
 
 #services-images {
@@ -245,25 +236,28 @@ footer p {
 	color: #fbfaf7;
 }
 
-@media (min-width: 800px) {
 
+
+@media (min-width: 800px) {
 	#services-flex-container {
 		display: flex;
 	}
-
 	#list {
 		width: 50%;
+	}
+	.slicknav_menu {
+		display: none;
+	}
+	#menu {
+		display: block;
 	}
 }
 
 @media (max-width: 800px) {
-	/* #menu is the original menu */
 	#menu {
 		display: none;
 	}
-	
 	.slicknav_menu {
 		display: block;
-
 	}
 }
